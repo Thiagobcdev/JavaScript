@@ -1,0 +1,31 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    line-height: 200%;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 200%;
+}
+
+body{
+    margin: 1rem;
+}
+
+/* AUX */
+.padSm{
+    padding: 1rem;
+}
+
+.margSm{
+    margin: 1rem;
+}
+
+.lineSm{
+    line-height: 200%;
+}
