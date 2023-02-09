@@ -29,3 +29,18 @@ body{
 .lineSm{
     line-height: 200%;
 }
+
+/* CONTAINER */
+
+.container{
+    display: flex;
+}
+
+.method{
+    border-right: 2px dotted rgba(0,0,0,.4);
+    padding-right: 1rem;
+}
+
+.search{
+    padding-left: 1rem;
+}

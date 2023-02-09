@@ -133,4 +133,50 @@ function methodSplit(texto){
 document.querySelector(".df19").innerHTML = methodSplit(textSplit);
 
 
+// MÈTODOS SEARCH(BUSCA)
+
+// Método indexOf 
+
+const textindexOf = "Método pega o index da primeira ocorrência especificada.";
+document.querySelector(".df20").innerHTML = textindexOf;
+
+function methodIndexOf(texto){
+    return texto.indexOf("pega");
+}
+document.querySelector(".df21").innerHTML = `Retorna o índice da primeira ocorrência: (pega): ${methodIndexOf(textindexOf)}º posição`;
+
+
+// Método search
+
+const textSearch = "O método search não é igual ao método indexOf.";
+document.querySelector(".df22").innerHTML = textSearch;
+
+function methodSearch(texto){
+    return texto.search("igual");
+}
+document.querySelector(".df23").innerHTML = `Retorna a posição da string (igual): ${methodSearch(textSearch)}º posição`
+
+// Método match
+
+const textMatch = "O método match retorna um array.";
+document.querySelector(".df24").innerHTML = textMatch;
+
+function methodMatch(texto){
+    return texto.match("match");
+}
+document.querySelector(".df25").innerHTML = `Retorna o resultado da comparação de uma string com uma string: ${methodMatch(textMatch)}`
+
+
+// Método includes
+
+const textIncludes = "O método includes retornar true se existir a string";
+document.querySelector(".df26").innerHTML = textIncludes;
+
+function methodIncludes(texto){
+    return texto.includes("existir");
+}
+document.querySelector(".df27").innerHTML = `Retornar true se existir a string especificada(existir) : ${methodIncludes(textIncludes)}`;
+
+
+
 
