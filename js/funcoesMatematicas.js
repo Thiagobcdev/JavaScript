@@ -52,8 +52,16 @@ function methodRandom(){
 }
 document.querySelector(".dp7").innerHTML = `Número aleatório: ${methodFloor(methodRandom()* 11)}`;
 
+// Method tostring
+function methodToString(){
+    return num.toString();
+}
+document.querySelector(".dp8").innerHTML = `Número convertido para uma string: ${methodToString()} (${typeof(methodToString())})`;
 
 
+// Method toFixed
 
-
-
+function methodToFixed(){
+    return num.toFixed(0);
+}
+document.querySelector(".dp9").innerHTML = `Valor: ${num}<br>Número alterado: ${methodToFixed()}`;
